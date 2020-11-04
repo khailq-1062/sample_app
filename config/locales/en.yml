@@ -58,19 +58,34 @@ en:
       text: "Contact the Ruby on Rails Tutorial about the sample app at the"
       path_text: "contact page"
   users:
+    index:
+      sub_title: "All users"
+      un_login: "Please login"
+      delete: "Delete"
+    user:
+      delete: "Delete"
+      confirm: "Are you sure ?"
     new:
       subtitle: "Sign up"
       text: "This will be a signup page for new users."
       create: "Create my account"
-      name: "name"
-      email: "email"
-      password: "password"
-      confirmation: "password confirmation"
     create:
       success: "Welcome to the Sample App!"
       danger: "Signup false"
     show:
       user_not_found: "User not found"
+    edit:
+      edit_user: "Edit user"
+      sub_title: "Update your profile"
+      save: "Save changes"
+      change: "change"
+      un_login: "Please login"
+    update:
+      user_updated: "Profile updated"
+      user_update_false: "Update false"
+    destroy:
+      user_deleted: "User Deleted"
+      user_delete_err: "Delete Err"
   sessions:
     create:
       login_false: "Invalid email/password combination"

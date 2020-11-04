@@ -58,6 +58,13 @@ vi:
       text: "Lien he ve Ruby on Rails Tutorial ve ung dung sample o"
       path_text: "Trang lien he"
   users:
+    index:
+      sub_title: "Tat ca tai khoan"
+      un_login: "Hay dang nhap"
+      delete: "Xoa"
+    user:
+        delete: "Xoa"
+        confirm: "Ban co chac muon xoa ?"
     new:
       subtitle: "Dang ky"
       text: "Đây sẽ là trang đăng ký cho người dùng mới."
@@ -71,6 +78,22 @@ vi:
       danger: "Dang ky khong thanh cong"
     show:
       user_not_found: "Khong tim thay user"
+    edit:
+      edit_user: "Cap nhat thong tin"
+      sub_title: "Cap nhat thong tin ca nhan"
+      save: "Luu thoong tin"
+      change: "thay doi"
+      name: "Ten"
+      email: "email"
+      password: "Mat khau"
+      confirmation: "Xac nhan mat khau"
+      un_login: "Hay dang nhap"
+    update:
+      user_updated: "Thong tin da dc cap nhat"
+      user_update_false: "Cap nhat loi"
+    destroy:
+      user_deleted: "Xoa user thanh cong"
+      user_delete_err: "Xoa user ko thanh cong"
   sessions:
     create:
       login_false: "Tai khoan hoac mat khau khong chinh xac"
