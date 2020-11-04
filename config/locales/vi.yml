@@ -1,2 +1,32 @@
 vi:
   hello: "Xin chào thế giới"
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App VN"
+      en: "Tieng Anh"
+      vi: "Tieng Viet"
+
+  static_pages:
+    home:
+      subtitle: "Trang chủ"
+      page_text: "Đây là trang chủ của"
+      path_text: "Ruby on Rails Tutorial"
+      text: "Ứng dụng sample "
+    help:
+      subtitle: "Trợ giúp"
+      page_text: "Trợ giúp Rails Tutorial"
+      path_text: " Trang trợ giúp Rails Tutorial"
+      text: "Để xem gợi ý, hãy đọc"
+      path_text2: "Sach huong dan Ruby on Rails"
+    about:
+      subtitle: "Lien he"
+      path_text: "Ruby on Rails Tutorial"
+      end_text: "một phần của"
+      path_text1: "Learn Enough"
+      end_text1: " là một chuỗi những bài hướng dẫn"
+      path_text2: "sách"
+      end_text2: "và"
+      path_text3: "những danh sach video hướng dẫn"
+      end_text3: "để hướng dẫn lập trình viên"
+      path_text4: "Ruby on Rails"
+      end_text4: "day la ung dung sampple"

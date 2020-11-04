@@ -1,0 +1,11 @@
+home:
+  path_link: "https://www.railstutorial.org/"
+help:
+  path_link: "https://www.railstutorial.org/help"
+  path_link2: " https://www.railstutorial.org/book"
+about:
+  path_link: "https://www.railstutorial.org/"
+  path_link1: "https://www.learnenough.com/"
+  path_link2: "https://www.railstutorial.org/book"
+  path_link3: "https://screencasts.railstutorial.org/"
+  path_link4: "https://rubyonrails.org/"
