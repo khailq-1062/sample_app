@@ -62,6 +62,7 @@ vi:
       sub_title: "Tat ca tai khoan"
       un_login: "Hay dang nhap"
       delete: "Xoa"
+      active_false: "Kich hoat kho thanh cong"
     user:
         delete: "Xoa"
         confirm: "Ban co chac muon xoa ?"
@@ -76,6 +77,7 @@ vi:
     create:
       success: "Chao mung ban den voi Sample App!"
       danger: "Dang ky khong thanh cong"
+      check_mail: "hay kiem tra mail cua ban de kich hoat tai khoan"
     show:
       user_not_found: "Khong tim thay user"
     edit:
@@ -94,9 +96,21 @@ vi:
     destroy:
       user_deleted: "Xoa user thanh cong"
       user_delete_err: "Xoa user ko thanh cong"
+    form:
+      submit: "Gui"
+  user_mailer:
+    account_activation:
+      sub_title: "Ung dung mau"
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      hi: "Xin chao"
+      active: "kich hoat"
+    password_reset:
+      sub_title: "Lam moi mat khau"
+      find_me: "Tim toi tai"
   sessions:
     create:
       login_false: "Tai khoan hoac mat khau khong chinh xac"
+      not_active: "Tai khoan chua dc kich hoat. Kiem tra email de kich hoat tai khoan."
     new:
       base_title: "Dang nhap"
       email: "email"
@@ -104,3 +118,6 @@ vi:
       text: "Tao tai khoan moi ?"
       signup: "Dang ki ngay!"
       remember: "Nho toi tren may tinh nay"
+  mailers:
+    user_mailer:
+      activation: "Tai khoan da dc kich hoat"
