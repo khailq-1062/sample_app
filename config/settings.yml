@@ -36,3 +36,5 @@ paginate:
 status:
   true: 1
   false: 0
+time:
+  two_hours: 2
