@@ -12,8 +12,8 @@
   </head>
 
   <body>
+    <%= render "layouts/header" %>
     <%= yield %>
-    <%= link_to t(".en"), locale: :en %>
-    <%= link_to t(".vi"), locale: :vi %>
+    <%= render "layouts/footer" %>
   </body>
 </html>
