@@ -5,7 +5,7 @@ en:
       title: "Ruby on Rails Tutorial Sample App"
       en: "English"
       vi: "Vietnamese"
-
+      base_title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
       subtitle: "Home"
