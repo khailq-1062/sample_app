@@ -1,0 +1,21 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: sample_app
+  pool: 5
+  username: root
+  password: Khaileedev99@
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: sample_app
+  pool: 5
+  username: root
+  password: Khaileedev99@
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: sample_app
+  pool: 5
+  username: root
+  password: Khaileedev99@
