@@ -19,3 +19,9 @@ footer:
   path_link5: "static_pages_contact_path"
 contact:
   path_link: "https://www.railstutorial.org/contac"
+user:
+  validate:
+    valid_regex_email: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+    name_length_max: 50
+    email_length_max: 255
+    pass_length_min: 6

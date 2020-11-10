@@ -4,18 +4,18 @@ development:
   database: sample_app
   pool: 5
   username: root
-  password: Khaileedev99@
+  password:
 test:
   adapter: mysql2
   encoding: utf8
   database: sample_app
   pool: 5
   username: root
-  password: Khaileedev99@
+  password:
 production:
   adapter: mysql2
   encoding: utf8
   database: sample_app
   pool: 5
   username: root
-  password: Khaileedev99@
+  password:
