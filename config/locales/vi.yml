@@ -3,16 +3,32 @@ vi:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App VN"
-      en: "Tieng Anh"
-      vi: "Tieng Viet"
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
       base_title: "Ruby on Rails Tutorial Sample App VN"
-
+    footer:
+      text: "The"
+      text1: "by"
+      text2: "Gioi thieu"
+      text3: "Lien he"
+      text4: "Bai Viet"
+      path_text1: "Ruby on Rails Tutorial"
+      path_text2: "Michael Hartl"
+      path_text3: "Tin tuc"
+    header:
+      text: "Trang chủ"
+      text1: "Trợ giúp"
+      text2: "Dang nhap"
+      text3: "Ung dung mau"
   static_pages:
     home:
       subtitle: "Trang chủ"
-      page_text: "Đây là trang chủ của"
-      path_text: "Ruby on Rails Tutorial"
-      text: "Ứng dụng sample "
+      path_text2: "Dang ky ngay !"
+      path_text1: "Ruby on Rails Tutorial"
+      text: "Chao mung den voi Sample App "
+      text1: "Đây là trang chủ của"
+      text2: "Ung dung Sample"
+      alt_logo: "Rails logo"
     help:
       subtitle: "Trợ giúp"
       page_text: "Trợ giúp Rails Tutorial"
@@ -31,3 +47,11 @@ vi:
       end_text3: "để hướng dẫn lập trình viên"
       path_text4: "Ruby on Rails"
       end_text4: "day la ung dung sampple"
+    contact:
+      subtitle: "Lien he"
+      text: "Lien he ve Ruby on Rails Tutorial ve ung dung sample o"
+      path_text: "Trang lien he"
+  users:
+    new:
+      subtitle: "Dang ky"
+      text: "Đây sẽ là trang đăng ký cho người dùng mới."

@@ -6,12 +6,29 @@ en:
       en: "English"
       vi: "Vietnamese"
       base_title: "Ruby on Rails Tutorial Sample App"
+    header:
+      text: "Home"
+      text1: "Help"
+      text2: "Log in"
+      text3: "sample app"
+    footer:
+      text: "The"
+      text1: "by"
+      text2: "About"
+      text3: "Contact"
+      text4: "News"
+      path_text1: "Ruby on Rails Tutorial"
+      path_text2: "Michael Hartl"
+      path_text3: "News"
   static_pages:
     home:
       subtitle: "Home"
-      page_text: "This is the home page for the"
-      path_text: "Ruby on Rails Tutorial"
-      text: "sample application."
+      path_text2: "Sign up now!"
+      path_text1: "Ruby on Rails Tutorial"
+      text: Welcome to the Sample App"
+      text1: " This is the home page for the"
+      text2: "Sample Application"
+      alt_logo: "Rails logo"
     help:
       subtitle: "Help"
       page_text: "Get help on the Ruby on Rails Tutorial at the"
@@ -20,7 +37,6 @@ en:
       path_text2: "Ruby on Rails Tutorial book"
     about:
       subtitle: "About"
-      text: "The"
       path_text: "Ruby on Rails Tutorial"
       end_text: "part of the"
       path_text1: "Learn Enough"
@@ -31,3 +47,11 @@ en:
       end_text3: "to teach web development with"
       path_text4: "Ruby on Rails"
       end_text4: "This is the sample app for the tutorial"
+    contact:
+      subtitle: "Contact"
+      text: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      path_text: "contact page"
+  users:
+    new:
+      subtitle: "Sign up"
+      text: "This will be a signup page for new users."

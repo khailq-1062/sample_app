@@ -1,11 +1,21 @@
 home:
   path_link: "https://www.railstutorial.org/"
+  path_link1: "Ruby_On_Rails_Logo.png"
 help:
   path_link: "https://www.railstutorial.org/help"
-  path_link2: " https://www.railstutorial.org/book"
+  path_link2: "https://www.railstutorial.org/book"
+
 about:
   path_link: "https://www.railstutorial.org/"
   path_link1: "https://www.learnenough.com/"
   path_link2: "https://www.railstutorial.org/book"
   path_link3: "https://screencasts.railstutorial.org/"
   path_link4: "https://rubyonrails.org/"
+footer:
+  path_link1: "https://www.railstutorial.org/"
+  path_link2: "https://www.michaelhartl.com/"
+  path_link3: "https://news.railstutorial.org/"
+  path_link4: static_pages_about_path
+  path_link5: "static_pages_contact_path"
+contact:
+  path_link: "https://www.railstutorial.org/contac"

@@ -1,0 +1,13 @@
+<footer class="footer">
+  <small>
+    <%= t ".text" %> <%= link_to t(".path_text1"), Settings.footer.path_link1 %>
+    <%= t ".text1" %> <%= link_to t(".path_text2"), Settings.footer.path_link2 %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".text2"), about_path %></li>
+      <li><%= link_to t(".text3"), contact_path %></li>
+      <li><%= link_to t(".text4"), Settings.footer.path_link3 %></li>
+    </ul>
+  </nav>
+</footer>
