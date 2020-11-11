@@ -6,6 +6,7 @@ en:
       en: "English"
       vi: "Vietnamese"
       base_title: "Ruby on Rails Tutorial Sample App"
+      success: "Chao mung ban den voi Sample App!"
     header:
       text: "Home"
       text1: "Help"
@@ -55,3 +56,13 @@ en:
     new:
       subtitle: "Sign up"
       text: "This will be a signup page for new users."
+      create: "Create my account"
+      name: "name"
+      email: "email"
+      password: "password"
+      confirmation: "password confirmation"
+    create:
+      success: "Welcome to the Sample App!"
+      danger: "Signup false"
+    show:
+      user_not_found: "User not found"

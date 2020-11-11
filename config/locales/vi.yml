@@ -6,6 +6,7 @@ vi:
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
       base_title: "Ruby on Rails Tutorial Sample App VN"
+      success: "Chao mung ban den voi Sample App!"
     footer:
       text: "The"
       text1: "by"
@@ -55,3 +56,13 @@ vi:
     new:
       subtitle: "Dang ky"
       text: "Đây sẽ là trang đăng ký cho người dùng mới."
+      create: "Tao tai khoan"
+      name: "Ten"
+      email: "email"
+      password: "Mat khau"
+      confirmation: "Xac nhan mat khau"
+    create:
+      success: "Chao mung ban den voi Sample App!"
+      danger: "Dang ky khong thanh cong"
+    show:
+      user_not_found: "Khong tim thay user"
