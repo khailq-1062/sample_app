@@ -6,6 +6,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
     return if @user
+
     flash[:danger] = t ".user_not_found"
     redirect_to root_path
   end
@@ -14,6 +15,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       flash[:success] = t ".success"
+      log_in @user
       redirect_to @user
     else
       flash[:danger] = t ".danger"

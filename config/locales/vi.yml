@@ -21,6 +21,11 @@ vi:
       text1: "Trợ giúp"
       text2: "Dang nhap"
       text3: "Ung dung mau"
+      logout: "Dang xuat"
+      settings: "Cat dat"
+      profile: "Ho so"
+      account: "Tai khoan"
+      user: "Nguoi dung"
   static_pages:
     home:
       subtitle: "Trang chủ"
@@ -66,3 +71,12 @@ vi:
       danger: "Dang ky khong thanh cong"
     show:
       user_not_found: "Khong tim thay user"
+  sessions:
+    create:
+      login_false: "Tai khoan hoac mat khau khong chinh xac"
+    new:
+      base_title: "Dang nhap"
+      email: "email"
+      password: "Mat khau"
+      text: "Tao tai khoan moi ?"
+      signup: "Dang ki ngay!"

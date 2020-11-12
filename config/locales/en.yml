@@ -12,6 +12,11 @@ en:
       text1: "Help"
       text2: "Log in"
       text3: "sample app"
+      logout: "Logout"
+      settings: "Settings"
+      profile: "Profile"
+      account: "Account"
+      user: "User"
     footer:
       text: "The"
       text1: "by"
@@ -66,3 +71,12 @@ en:
       danger: "Signup false"
     show:
       user_not_found: "User not found"
+  sessions:
+    create:
+      login_false: "Invalid email/password combination"
+    new:
+      base_title: "Login"
+      email: "email"
+      password: "password"
+      text: "New user ?"
+      signup: "Sign up now!"
