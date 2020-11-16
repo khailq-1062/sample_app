@@ -62,6 +62,7 @@ en:
       sub_title: "All users"
       un_login: "Please login"
       delete: "Delete"
+      active_false: "Active false"
     user:
       delete: "Delete"
       confirm: "Are you sure ?"
@@ -72,6 +73,7 @@ en:
     create:
       success: "Welcome to the Sample App!"
       danger: "Signup false"
+      check_mail: "Please check your email to activate your account."
     show:
       user_not_found: "User not found"
     edit:
@@ -86,9 +88,21 @@ en:
     destroy:
       user_deleted: "User Deleted"
       user_delete_err: "Delete Err"
+    form:
+      submit: "submit"
+  user_mailer:
+    account_activation:
+      sub_title: "sample app"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      hi: "Hello "
+      active: "Active"
+    password_reset:
+      sub_title: "Reset password"
+      find_me: "find me in"
   sessions:
     create:
       login_false: "Invalid email/password combination"
+      not_active: "Account not activated. Check your email for the activation link."
     new:
       base_title: "Login"
       email: "email"
@@ -96,3 +110,6 @@ en:
       text: "New user ?"
       signup: "Sign up now!"
       remember: "Remember me on this computer"
+  mailers:
+    user_mailer:
+      activation: "Account activation"
