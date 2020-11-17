@@ -107,6 +107,9 @@ vi:
     password_reset:
       sub_title: "Lam moi mat khau"
       find_me: "Tim toi tai"
+      reset_link: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      time_out: "Liên kết này sẽ hết hạn sau hai giờ."
+      not_change: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
   sessions:
     create:
       login_false: "Tai khoan hoac mat khau khong chinh xac"
@@ -118,6 +121,26 @@ vi:
       text: "Tao tai khoan moi ?"
       signup: "Dang ki ngay!"
       remember: "Nho toi tren may tinh nay"
+      forgot: "Quen mat khau"
   mailers:
     user_mailer:
       activation: "Tai khoan da dc kich hoat"
+  password_resets:
+    new:
+      sub_title: "Quen mat khau"
+      email: "email"
+      submit: "Gui"
+    create:
+      link_reset: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ email"
+    edit:
+      sub_title: "Reset password"
+      password: "Mat khau"
+      confirmation: "Xac nhan mat khau"
+      update: "cap nhat mat khau"
+    update:
+      has_been_reset: "Mật khẩu đã được đặt lại."
+      cant_empty: "KO dc rong"
+      reset_false: "Dat lai mat khau loi"
+    check_expiration:
+      expired: "Đặt lại mật khẩu đã hết hạn."

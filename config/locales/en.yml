@@ -99,6 +99,9 @@ en:
     password_reset:
       sub_title: "Reset password"
       find_me: "find me in"
+      reset_link: "To reset your password click the link below:"
+      time_out: "This link will expire in two hours."
+      not_change: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   sessions:
     create:
       login_false: "Invalid email/password combination"
@@ -110,6 +113,26 @@ en:
       text: "New user ?"
       signup: "Sign up now!"
       remember: "Remember me on this computer"
+      forgot: "forgot password"
   mailers:
     user_mailer:
       activation: "Account activation"
+  password_resets:
+    new:
+      sub_title: "Forgot password"
+      email: "email"
+      submit: "submit"
+    create:
+      link_reset: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+    edit:
+      sub_title: "Reset password"
+      password: "password"
+      confirmation: "confirm password"
+      update: "update password"
+    update:
+      has_been_reset: "Password has been reset."
+      cant_empty: "can't be empty"
+      reset_false: "Reset Err"
+    check_expiration:
+      expired: "Password reset has expired."
