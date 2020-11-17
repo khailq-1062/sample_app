@@ -18,6 +18,11 @@ gem "faker", "2.1.2"
 gem "kaminari"
 gem "bootstrap-kaminari-views"
 gem "figaro"
+gem "active_storage_validations", "0.8.2"
+gem "image_processing", "1.9.3"
+gem "mini_magick", "~> 4.5", ">= 4.5.1"
+gem "i18n-js"
+gem "bullet", group: "development"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

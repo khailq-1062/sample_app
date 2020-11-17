@@ -1,4 +1,8 @@
 vi:
+  js:
+    alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+  valid: "phải là một định dạng hợp lệ"
+  valid_size_image: "Kich thuoc phai nho hon 5mb"
   hello: "Xin chào thế giới"
   layouts:
     application:
@@ -35,6 +39,8 @@ vi:
       text1: "Đây là trang chủ của"
       text2: "Ung dung Sample"
       alt_logo: "Rails logo"
+      feed: "Danh sach bai viet"
+      show: "Bai viet"
     help:
       subtitle: "Trợ giúp"
       page_text: "Trợ giúp Rails Tutorial"
@@ -144,3 +150,26 @@ vi:
       reset_false: "Dat lai mat khau loi"
     check_expiration:
       expired: "Đặt lại mật khẩu đã hết hạn."
+  microposts:
+    micropost:
+      time_post: "Da dang %{time} truoc."
+      posted: "Da dang"
+      ago: "truoc"
+      delete: "Xoa"
+      confirm: "Ban chac chu ?"
+    create:
+      success: "Đã tạo micropost!"
+      false: "Tao moi bai viet bi loi"
+    destroy:
+      deleted: "Da xoa micropost!"
+      delete_false: "Xoa ko thanh cong"
+  shared:
+    micropost_form:
+      compose: "Viet noi dung ..."
+      post: "Dang"
+    user_info:
+      view: "Xem thong tin ca nhan"
+      micropost: "Bai viet"
+    error_messages:
+      contains: "Bieu mau chua"
+      error: "loi"
