@@ -50,3 +50,4 @@ image:
     accept: "image/jpeg,image/gif,image/png"
 mb_to_byte: 1024
 size_max_file: 5
+size_gravatar_follow: 30

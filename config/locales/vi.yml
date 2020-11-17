@@ -86,6 +86,7 @@ vi:
       check_mail: "hay kiem tra mail cua ban de kich hoat tai khoan"
     show:
       user_not_found: "Khong tim thay user"
+      post: "Bai viet"
     edit:
       edit_user: "Cap nhat thong tin"
       sub_title: "Cap nhat thong tin ca nhan"
@@ -104,6 +105,17 @@ vi:
       user_delete_err: "Xoa user ko thanh cong"
     form:
       submit: "Gui"
+    follow:
+      follow: "Theo doi"
+    unfollow:
+      unfollow: "Huy theo doi"
+    show_follow:
+      post: "bai viet"
+      profile: "Xem ho so"
+    following:
+      following: "Dang theo doi"
+    follower:
+      follower: "Nguoi theo doi"
   user_mailer:
     account_activation:
       sub_title: "Ung dung mau"
@@ -173,3 +185,17 @@ vi:
     error_messages:
       contains: "Bieu mau chua"
       error: "loi"
+    stats:
+      following: "Dang theo doi"
+      follower: "Nguoi theo doi"
+  relationships:
+    create:
+      user_not_found: "Nguoi dung ko ton tai"
+    destroy:
+      user_not_found: "Nguoi dung ko ton tai"
+  followings:
+    index:
+      user_not_found: "Nguoi dung ko ton tai"
+  followers:
+    index:
+      user_not_found: "Nguoi dung ko ton tai"

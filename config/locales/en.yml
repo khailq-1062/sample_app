@@ -96,6 +96,18 @@ en:
       user_delete_err: "Delete Err"
     form:
       submit: "submit"
+    follow:
+      follow: "Follow"
+    show_follow:
+      post: "Microposts"
+      following: "Followings"
+      follower: "Folllowers"
+    unfollow:
+      unfollow: "unfollow"
+    following:
+      following: "Followings"
+    follower:
+      follower: "Folllowers"
   user_mailer:
     account_activation:
       sub_title: "sample app"
@@ -168,3 +180,6 @@ en:
     error_messages:
       constains: "The form contains"
       error: "error"
+  relationships:
+    create:
+      user_not_found: "User not found"

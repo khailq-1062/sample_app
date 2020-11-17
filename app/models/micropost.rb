@@ -12,7 +12,8 @@ class Micropost < ApplicationRecord
                     size: {less_than: Settings.max_size_file.megabytes,
                            message: I18n.t(".valid_size_image")}
 
-  scope :feed, ->(user_id){where user_id: user_id if user_id.present?}
+  scope :feed, ->(user_ids){where user_id: user_ids}
+
   scope :sort_by_date, ->{order created_at: :desc}
 
   delegate :name, to: :user

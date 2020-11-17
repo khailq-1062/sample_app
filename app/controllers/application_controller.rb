@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
   before_action :set_locale
 
   private
+
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
   end
@@ -17,5 +18,13 @@ class ApplicationController < ActionController::Base
     store_location
     flash[:danger] = t ".un_login"
     redirect_to login_url
+  end
+
+  def find_user
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:danger] = t ".user_not_found"
+    redirect_to root_path
   end
 end
