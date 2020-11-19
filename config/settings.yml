@@ -38,3 +38,15 @@ status:
   false: 0
 time:
   two_hours: 2
+max_size_file: 5
+micropost:
+  validate:
+    max_content_length: 140
+  type: ["image/jpeg", "image/gif", "image/png"]
+  gravatar:
+    size: 50
+image:
+    size: 500
+    accept: "image/jpeg,image/gif,image/png"
+mb_to_byte: 1024
+size_max_file: 5
